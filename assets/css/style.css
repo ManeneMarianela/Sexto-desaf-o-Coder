@@ -13,9 +13,21 @@
 	justify-content: end;
 }
 .navbarmodificado{
-	background-color: darksalmon;
 	align-items: center;
+	justify-content: center;
+	padding: 2rem 5rem;
 	
+}
+.navbarmodificado{
+	background-color: darksalmon;
+	color: black;
+	font-weight: 700;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	
+
 }
 
 .navrespontrabajo{
