@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li{
+	display: inline-block;
+	margin-right: 11rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	align-items: center;
+	justify-content: end;
+}
+.navbarmodificado{
+	background-color: darksalmon;
+	align-items: center;
+	
+}
+
+.navrespontrabajo{
+	background-color: darksalmon;
+}
+.navrespontrabajo{
+	align-items: center;
+	justify-content: end;
+	padding: 2rem;
+}
+.navrespontestimonios{
+	background-color:darksalmon;
+}
+.navrespontestimonios{
+	align-items: center;
+	justify-content: end;
+	padding: 2rem;
+}
+.navresponcontacto{
+	background-color: darksalmon;
+}
+.navresponcontacto{
+	align-items: center;
+	justify-content: end;
+	padding: 2rem;
+}
+a{
+	text-decoration: none;
+}
+.nav a {
+	color: black;
+	font-weight: 700;
+}
+.navrespontrabajo a{
+	color: black;
+	font-weight: 700;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	align-items: center;
+}
+.navrespontestimonios a{
+	color: black;
+	font-weight: 700;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	align-items: center;
+}
+.navresponcontacto a{
+	color: black;
+	font-weight: 700;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	align-items: center;
+}
+
+nav a:hover{
+	color: bisque;
+}
+.navrespontrabajo a:hover{
+	color: bisque;
+}
+.navrespontestimonios a:hover{
+	color: bisque;
+}
+.navresponcontacto a:hover{
+	color: bisque;
+}
+.imagengrande{
+	/*background-image: url(../imgs/imagenpc.jpg);*/
+	margin-top: 1rem;
+	padding-top: 1rem;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+/*main de trabajos*/	 
+.textoprincipaltrabajos{
+	color: darkslategrey;
+	font-size: large;
+	font-weight: 500;
+	font-family: 'Redressed', cursive;
+	text-align: left;
+	line-height: 3rem;
+	text-align: center;
+}
+.card{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	align-items: center;
+	grid-area: main;
+}	
+.textoprincipal{
+	color: darkslategrey;
+	font-size: large;
+	font-weight: 500;
+	font-family: 'Redressed', cursive;
+    font-family: 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 3rem;
+	text-align: center;
+}
+.textoprincipal{
+	animation-duration: 5s;
+	animation-name: aparecer;
+	animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+
+.imagenrostro{
+	margin-right: 16rem;
+}
+
+.pie{
+	justify-content: space-between;
+	font-family: 'Redressed', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+/*mobile*/
+@media (max-width: 991.98px) {
+	flex-direction: column;
+	}
+	header{
+		background-color: coral;
+		grid-area: header;
+	}
+	main{
+		background-color: coral;
+		grid-area: main;
+	}
+	.textoprincipaltrabajos{
+		background-color: coral;
+		grid-area: main;
+	}
+	.tarjeta{
+		grid-area: main;
+	}
+	
+	
+	footer{
+		background-color:darkseagreen;
+		grid-area: footer;
+		background-image: linear-gradient(to left, purple, pink);
+	}
+/*Esto es lo que tenía la profe pero no lo borro porque me puede servir*/
+/*mobile*/
+/*@media (max-width: 991.98px) {
+	header{
+    background-color: hotpink;
+		border: 18rem dotted black;
+		grid-area: header;
+		height: 100%;
+	}
+}
+	main{
+		background-color: coral;
+		border: 2px dotted black;
+		grid-area: main;
+		height: 300px;
+	}
+	.contenedor div{
+		background-color: none;
+		border: 2px dotted black;
+		grid-area: aside;
+	}
+	footer{
+		background-color: darkslategray;
+		border: 2px dotted black;
+		grid-area: footer;
+		height: 100px;
+	}
+	<header class="nav">
+        <nav>
+            <ul class="navrespon">
+        <li class="navrespon1"><a href="./pages/sobremi.html">Sobre mí</a></li>
+        <li class="navrespon2"><a href="./pages/trabajos.html">Trabajos</a></li>
+        <li class="navrespon3"><a href="./pages/testimonios.html">Testimonios</a></li>
+        <li class="navrespon4"><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+       
+    </header> */
+	
+	*/
+
