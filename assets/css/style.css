@@ -128,6 +128,21 @@ nav a:hover{
 	align-items: center;
 	grid-area: main;
 }	
+.textoprincipalcontacto{
+	color: darkslategrey;
+	font-size: large;
+	font-weight: 700;
+	font-family: 'Redressed', cursive;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 3rem;
+	text-align: center;
+}
+.textoprincipal{
+	animation-duration: 5s;
+	animation-name: aparecer;
+	animation-iteration-count: infinite;
+}
 .textoprincipal{
 	color: darkslategrey;
 	font-size: large;
@@ -150,7 +165,8 @@ nav a:hover{
 	100% {
 	  opacity: 1;
 	}
-
+	
+	
 .imagenrostro{
 	margin-right: 16rem;
 }
