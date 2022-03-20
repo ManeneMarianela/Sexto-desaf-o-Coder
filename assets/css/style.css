@@ -70,6 +70,15 @@ a{
 	margin-bottom: 2rem;
 	align-items: center;
 }
+.navrespontrabajo{
+	transition: all 3s;
+}
+.navrespontrabajo:hover {
+	height: 100px; width: auto;
+	padding: 10px;
+	background-color: purple;
+ }
+ 
 .navrespontestimonios a{
 	color: black;
 	font-weight: 700;
@@ -120,6 +129,23 @@ nav a:hover{
 	line-height: 3rem;
 	text-align: center;
 }
+
+.textoprincipaltrabajos {
+	animation-duration: 4s;
+	animation-name: aparecer;
+	animation-iteration-count: infinite;
+ }
+ 
+ 
+ @keyframes aparecer {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+ }
+ 
 .card{
 	width: auto;
 	height: auto;
@@ -137,6 +163,9 @@ nav a:hover{
 	text-align: left;
 	line-height: 3rem;
 	text-align: center;
+}
+.textoprincipaltestimonios{
+	background-image: linear-gradient(to left, purple, pink);
 }
 .textoprincipal{
 	animation-duration: 5s;
