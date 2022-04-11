@@ -122,22 +122,10 @@ nav a:hover{
 	text-align: center;
 }
 
-.textoprincipaltrabajos {
-	animation-duration: 6s;
-	animation-name: aparecer;
-	animation-iteration-count: infinite;
+
+ .textoprincipaltrabajos{
+	background-image: linear-gradient(to left, pink, burlywood);
  }
- 
- 
- @keyframes aparecer {
-	0% {
-	  opacity: 0;
-	}
-	100% {
-	  opacity: 1;
-	}
- }
- 
 .card{
 	width: auto;
 	height: auto;
@@ -153,11 +141,14 @@ nav a:hover{
 	font-family: 'Redressed', cursive;
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
-	line-height: 3rem;
+	line-height: 4rem;
 	text-align: center;
 }
+.textoprincipalcontacto{
+	background-image: linear-gradient(to left, pink, burlywood);
+}
 .textoprincipaltestimonios{
-	background-image: linear-gradient(to left, purple, pink);
+	background-image: linear-gradient(to left, pink, burlywood);
 }
 .textoprincipal{
 	animation-duration: 5s;
