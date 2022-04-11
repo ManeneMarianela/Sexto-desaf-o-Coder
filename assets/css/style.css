@@ -148,7 +148,46 @@ nav a:hover{
 	background-image: linear-gradient(to left, pink, burlywood);
 }
 .textoprincipaltestimonios{
+	color: darkslategrey;
+	font-size: large;
+	font-weight: 700;
+	font-family: 'Redressed', cursive;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 4rem;
+	text-align: center;
+}
+.textoprincipaltestimonios{
 	background-image: linear-gradient(to left, pink, burlywood);
+}
+form{
+	width: 450px;
+	margin: auto;
+	background-color:lightpink;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 7px;
+}
+.comentariosformulario{
+	color:darkslategrey;
+	text-align:center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
 }
 .textoprincipal{
 	animation-duration: 5s;
