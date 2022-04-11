@@ -2,7 +2,13 @@
 	margin: 0;
 	padding: 0;
 }
-
+body{
+	position: relative;
+	padding-bottom: 20rem;
+}
+.bodytrabajos{
+	padding-bottom: 85rem;
+}
 .nav ul li{
 	display: inline-block;
 	margin-right: 11rem;
@@ -126,14 +132,46 @@ nav a:hover{
  .textoprincipaltrabajos{
 	background-image: linear-gradient(to left, pink, burlywood);
  }
-.card{
-	width: auto;
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
-	align-items: center;
-	grid-area: main;
-}	
+ .contenedor{
+	 width: 100%;
+	 max-width: 1200px;
+	 height: 430px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+	 margin: auto;
+ }
+ .contenedor .tarjeta{
+	 width: 330px;
+	 height: 430px;
+	 border-radius: 8px;
+	 box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	 overflow: hidden;
+	 margin: 20px;
+	 text-align: center;
+	 transition: all 0.25s;
+ }
+ .contenedor .tarjeta:hover{
+	 transform: translateY(-15px);
+	 box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+ }
+ .contenedor .tarjeta img{
+	 width: 330px;
+	 height: 220px;
+ }
+ .contenedor .tarjeta h2{
+	 font-weight: 600;
+ }
+ .contenedor .tarjeta p{
+	 padding: 0 1rem;
+	 font-size: 16px;
+	 font-weight: 300;
+ }
+ .contenedor .tarjeta a{
+	 font-weight: 500;
+	 text-decoration: none;
+	 color: brown;
+ }
 .textoprincipalcontacto{
 	color: darkslategrey;
 	font-size: large;
@@ -216,17 +254,18 @@ textarea{
 	100% {
 	  opacity: 1;
 	}
-	
-	
-.imagenrostro{
-	margin-right: 16rem;
 }
-
+	
 .pie{
 	justify-content: space-between;
 	font-family: 'Redressed', cursive;
     font-family: 'Roboto', sans-serif;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
+
+
 /*mobile*/
 @media (max-width: 991.98px) {
 	flex-direction: column;
@@ -253,45 +292,5 @@ textarea{
 		grid-area: footer;
 		background-image: linear-gradient(to left, purple, pink);
 	}
-/*Esto es lo que tenía la profe pero no lo borro porque me puede servir*/
-/*mobile*/
-/*@media (max-width: 991.98px) {
-	header{
-    background-color: hotpink;
-		border: 18rem dotted black;
-		grid-area: header;
-		height: 100%;
-	}
-}
-	main{
-		background-color: coral;
-		border: 2px dotted black;
-		grid-area: main;
-		height: 300px;
-	}
-	.contenedor div{
-		background-color: none;
-		border: 2px dotted black;
-		grid-area: aside;
-	}
-	footer{
-		background-color: darkslategray;
-		border: 2px dotted black;
-		grid-area: footer;
-		height: 100px;
-	}
-	<header class="nav">
-        <nav>
-            <ul class="navrespon">
-        <li class="navrespon1"><a href="./pages/sobremi.html">Sobre mí</a></li>
-        <li class="navrespon2"><a href="./pages/trabajos.html">Trabajos</a></li>
-        <li class="navrespon3"><a href="./pages/testimonios.html">Testimonios</a></li>
-        <li class="navrespon4"><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        
-       
-    </header> */
-	
-	*/
+
 
